@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-firebase-auth",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/firebase": "^7.6.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@srexi/purecounterjs": "^1.5.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.6.2",
+    "bootstrap-icons": "^1.10.3",
+    "bootstrap-vue": "^2.23.1",
+    "core-js": "^3.25.3",
+    "firebase": "^8.10.1",
+    "gsap": "^3.11.5",
+    "mixitup": "^3.3.1",
+    "nuxt": "^2.15.8",
+    "swiper": "^9.0.5",
+    "vue": "^2.7.10",
+    "vue-count-to": "^1.0.13",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  }
+}
