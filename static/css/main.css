@@ -8,7 +8,7 @@
 
 .back a {
   font-size: 15px;
-  font-family: Montserrat-Medium;
+  font-family: "Poppins", sans-serif;;
   color: #555555;
   line-height: 1.2;
   text-align: center;
@@ -20,22 +20,22 @@
   align-items: flex-start;
 }
 /* @font-face {
-  font-family: Poppins-Regular;
+  font-family: "Poppins", sans-serif;
   src: url('../fonts/poppins/Poppins-Regular.ttf'); 
 }
 
 @font-face {
-  font-family: Poppins-Medium;
+  font-family: "Poppins", sans-serif;
   src: url('../fonts/poppins/Poppins-Medium.ttf'); 
 }
 
 @font-face {
-  font-family: Montserrat-Medium;
+  font-family: "Poppins", sans-serif;
   src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
 }
 
 @font-face {
-  font-family: Montserrat-SemiBold;
+  font-family: "Poppins", sans-serif;
   src: url('../fonts/montserrat/Montserrat-SemiBold.ttf'); 
 } */
 
@@ -50,12 +50,12 @@
 
 body, html {
 	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Poppins-Regular;
+	font-family: "Poppins", sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Poppins-Regular !important;
+	font-family: "Poppins", sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	margin: 0px;
@@ -153,14 +153,14 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Montserrat-SemiBold;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: #555555;
   line-height: 1.5;
 }
 
 .txt2 {
-  font-family: Poppins-Regular;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   color: #999999;
   line-height: 1.5;
@@ -213,7 +213,7 @@ iframe {
 .login100-form-title {
   width: 100%;
   display: block;
-  font-family: Montserrat-Medium;
+  font-family: "Poppins", sans-serif;
   font-size: 39px;
   color: #555555;
   line-height: 1.2;
@@ -224,7 +224,7 @@ iframe {
 [ Button sign in with ]*/
 .btn-face,
 .btn-google {
-  font-family: Montserrat-SemiBold;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 1.2;
   cursor: pointer;
@@ -322,7 +322,7 @@ iframe {
 
 /*---------------------------------------------*/
 .input100 {
-  font-family: Poppins-Regular;
+  font-family: "Poppins", sans-serif;
   color: #333333;
   line-height: 1.2;
   font-size: 18px;
@@ -411,7 +411,7 @@ iframe {
   background-color: #333333;
   border-radius: 10px;
 
-  font-family: Poppins-Medium;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
@@ -475,7 +475,7 @@ iframe {
   right: 12px;
   pointer-events: none;
 
-  font-family: Poppins-Regular;
+  font-family: "Poppins", sans-serif;
   color: #c80000;
   font-size: 14px;
   line-height: 1.4;
