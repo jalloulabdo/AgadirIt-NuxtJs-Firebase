@@ -27,5 +27,9 @@
     "vue-count-to": "^1.0.13",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
-  }
+  },
+   "output": {
+    "path": "path.resolve(__dirname, 'dist')", // Output directory
+    "filename": "bundle.js", // Output filename
+  },
 }
