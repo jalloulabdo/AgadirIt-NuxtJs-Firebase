@@ -4,31 +4,31 @@
     <div class="carousel carousel-fade slide swiper mySwiper" id="heroCarousel" ref="swiper">
       <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
       <div class="swiper-wrapper ">
-        <div class="swiper-slide" style="background-image: url(img/slide/applicationmobile.jpeg);">
+        <div class="swiper-slide" style="background-image: url(img/slide/creation.jpg);">
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2 class="animate__animated animate__fadeInDown">développement  des applications <br> <span> web/mobile</span></h2>
-                  <p class="animate__animated animate__fadeInUp"></p>
-                  <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">DÉCOUVRIR NOS APPLICATIONS</a>
+                  <h2 class="animate__animated animate__fadeInDown">Création Sites Web <br> <span></span></h2>
+                  <p class="animate__animated animate__fadeInUp">Laissez-nous transformer vos idées en sites web dynamiques qui capturent l'essence de votre entreprise et captivent votre public</p>
+                  <a href="#contact" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contactez nous</a>
                 </div>
               </div>
         </div>
-        <div class="swiper-slide" style="background-image: url(img/slide/siteinternet.jpg);">
+        <div class="swiper-slide" style="background-image: url(img/slide/seo.jpg);">
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2 class="animate__animated animate__fadeInDown">création site internet pro</h2>
-                  <p class="animate__animated animate__fadeInUp">La conception, le développement et la publication d’une solution mobile via l’utilisation d’une technologie native.</p>
-                  <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Nos Créations</a>
+                  <h2 class="animate__animated animate__fadeInDown">Référencement Naturel (SEO)</h2>
+                  <p class="animate__animated animate__fadeInUp">Notre SEO optimise votre visibilité en ligne, garantissant que chaque clic compte et se traduit par des résultats concrets.</p>
+                  <a href="#contact" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contactez nous</a>
                 </div>
               </div>
             </div>
 
-        <div class="swiper-slide" style="background-image: url(img/slide/photo-formation.jpg);">
+        <div class="swiper-slide" style="background-image: url(img/slide/referencement.jfif);">
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2 class="animate__animated animate__fadeInDown">COMMUNITY MANAGEMENT </h2>
-                  <p class="animate__animated animate__adeInUp">Transformer votre audience en communauté engagée.</p>
-                  <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">DEMANDEZ UN DEVIS</a>
+                  <h2 class="animate__animated animate__fadeInDown">Référencement Payant (Google Ads)</h2>
+                  <p class="animate__animated animate__adeInUp">Chaque clic est une opportunité. Nos campagnes ciblées assurent que chaque clic mène à une action, augmentant ainsi vos résultats.</p>
+                  <a href="#contact" class="btn-get-started scrollto animate__animated animate__fadeInUp">Contactez nous</a>
                 </div>
               </div>
         </div>

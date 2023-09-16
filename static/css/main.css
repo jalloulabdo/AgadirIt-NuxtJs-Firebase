@@ -5,7 +5,16 @@
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
-
+@font-face {
+  font-family: "poppins";
+  src: url(fonts/Poppins-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "poppins bold";
+  src: url(fonts/Poppins-Bold.ttf);
+  font-weight: 800;
+}
 .back a {
   font-size: 15px;
   font-family: "Poppins", sans-serif;;
@@ -55,8 +64,9 @@ body, html {
 
 /*---------------------------------------------*/
 a {
-	font-family: "Poppins", sans-serif;
+	font-family: "Poppins bold", sans-serif;
 	font-size: 14px;
+  font-weight: 600;
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -65,7 +75,12 @@ a {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
+i span{
+  font-family: "Poppins bold", sans-serif;
+	font-size: 14px;
+  font-weight: 600;
 
+} 
 a:focus {
 	outline: none !important;
 }

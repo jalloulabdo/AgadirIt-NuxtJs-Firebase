@@ -4,8 +4,8 @@
       <div class="container position-relative">
 
         <div class="text-center title">
-          <h3>What we have achieved so far</h3>
-          <p>Iusto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</p>
+          <h3 data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="500">What we have achieved so far</h3>
+          <p  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1000" data-aos-delay="1000">Iusto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</p>
         </div>
 
         <div class="row counters">

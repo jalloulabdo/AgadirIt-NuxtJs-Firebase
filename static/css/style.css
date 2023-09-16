@@ -8,11 +8,24 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: "poppins";
+  src: url(fonts/Poppins-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "poppins bold";
+  src: url(fonts/Poppins-Bold.ttf);
+  font-weight: 800;
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #444444;
 }
-
+.active-link {
+  color: #01b1d7 !important; /* Change this to your desired color */
+  /* Other styling properties if needed */
+}
 a {
   color: #01b1d7;
   text-decoration: none;
@@ -29,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -87,6 +100,7 @@ h6 {
   font-style: normal;
   color: #01b1d7;
   margin-left: 8px;
+  font-size: 16px;
 }
 
 #topbar .contact-info i a,
@@ -190,7 +204,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 13px;
   font-weight: 600;
   color: #404f52;
@@ -505,7 +519,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -729,7 +743,7 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 14px;
   color: #fff;
 }
@@ -1173,6 +1187,8 @@ section {
 .contact .info-wrap {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 6px;
 }
 
 .contact .info {
@@ -1215,9 +1231,11 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 9px 21px 0 rgba(0, 0, 0, 0.12);
   padding: 30px;
   background: #fff;
+  border-radius: 12px;
+  margin-bottom: 6px;
 }
 
 .contact .php-email-form .form-group {
@@ -1274,10 +1292,12 @@ section {
 
 .contact .php-email-form input {
   height: 44px;
+  border-radius: 4px;
 }
 
 .contact .php-email-form textarea {
   padding: 10px 12px;
+  border-radius: 4px;
 }
 
 .contact .php-email-form button[type="submit"] {
@@ -1392,7 +1412,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "poppins", sans-serif;
   color: #fff;
 }
 
@@ -1506,4 +1526,22 @@ section {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+.icon-box:hover {
+  background: linear-gradient(
+    45deg,
+    var(--lvr-secondary-color) 15%,
+    var(--lvr-primary-color) 65%
+  );
+  transform: translateY(-7.5px);
+}
+.services .icon-box {
+  border-radius: 6px !important;
+  background-color: var(--card-bg-color);
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  transition-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  transition-duration: 0.4s;
+  transition-property: opacity, transform;
 }
